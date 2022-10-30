@@ -11,12 +11,23 @@ body{
     margin: 0px auto;
     max-width: 55rem;
 }
-h1{
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 25rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+/* h1{
     text-align: center; 
 }
 .question-container{
     margin:2rem 5rem;
-}
+} */
 .angle-input{
     text-align: center;
 }
@@ -58,8 +69,7 @@ h1{
 
 #submit-answer-btn ,#is-triangle-btn ,#area-btn,#hypotenuse-btn{
     margin-top: 1rem;
-    margin-left: 24rem;
- 
+   
     padding: 5px;
     color:var(--primary-color);
     border-radius: 0.3rem;
